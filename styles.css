@@ -1,6 +1,6 @@
 .holder{
-    flex-direction: column;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    height: 200px;
 }
 /* Your CSS Code here. */
